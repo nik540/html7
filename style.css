@@ -1,62 +1,79 @@
 html {
-box-sizing: border-box;
-    background-color: #fff;
+  box-sizing: border-box;
+  background-color: #fff;
 }
 
 body {
-    font-size: 1em; /*размер шрифта*/
-    line-height: 1; /*межстрочное расстояние*/
-    text-align:center;/*выравнивание по горизонтали*/
-    color: darkslategray;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fS8XLpvlWhh1mGWCKty1chhVbmz4EGJ-xw&usqp=CAU);
-    background: antiquewhite; /*цвет фона*/
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-position:center 20px; исходное положение фона */
-    /* background-repeat: repeat-x; фон только по горизонтали */
-       /* background-repeat: no-repeat; фон только один раз */
+  font-size: 1em;
+  /*размер шрифта*/
+  line-height: 1;
+  /*межстрочное расстояние*/
+  text-align: center;
+  /*выравнивание по горизонтали*/
+  color: darkslategray;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fS8XLpvlWhh1mGWCKty1chhVbmz4EGJ-xw&usqp=CAU);
+  background: antiquewhite;
+  /*цвет фона*/
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-position:center 20px; исходное положение фона */
+  /* background-repeat: repeat-x; фон только по горизонтали */
+  /* background-repeat: no-repeat; фон только один раз */
 
 }
 
 h1 {
-    text-shadow: 0 2px 5px; /*тень к тексту*/
+  text-shadow: 0 2px 5px;
+  /*тень к тексту*/
 }
 
 h2 {
-     font-variant: small-caps; /*текст в капитель*/
-    font-style: italic; /*курсив*/
-    font-weight:100; /*тонкий*/
+  font-variant: small-caps;
+  /*текст в капитель*/
+  font-style: italic;
+  /*курсив*/
+  font-weight: 100;
+  /*тонкий*/
 }
 
 blockquote {
-    background: rgb(153, 187, 185);
-    color: rgb(47, 107, 89);
-    text-indent: 40px;/*пространство перед первой буквой*/
-    padding: 20px; /*сдвиг блока текста*/
-    margin: 40px;
-    border: 2px solid yellow;
-}/* длинная цитата, спецсимволы */
+  background: rgb(153, 187, 185);
+  color: rgb(47, 107, 89);
+  text-indent: 40px;
+  /*пространство перед первой буквой*/
+  padding: 20px;
+  /*сдвиг блока текста*/
+  margin: 40px;
+  border: 2px solid yellow;
+}
 
-.date{
-    color: orange;
+/* длинная цитата, спецсимволы */
+
+.date {
+  color: orange;
 }
 
 .element {
-    color:hotpink;
+  color: hotpink;
 }
 
 .tipe dd {
-    display: inline;
+  display: inline;
 }
 
-nav a{
-    display: block; /*изменяет тип элемента*/
-    background-color: cadetblue;
+nav a {
+  display: block;
+  /*изменяет тип элемента*/
+  background-color: cadetblue;
 }
 
 nav a:hover {
-    color: red; /*цвет ссылки при наведении*/
-    /* display: block;  */
+  color: red;
+  /*цвет ссылки при наведении*/
+  /* display: block;  */
 }
 
-.deleted { 
-    text-decoration: line-through;} /*text-decoration добавляет линию*/
+.deleted {
+  text-decoration: line-through;
+}
+
+/*text-decoration добавляет линию*/
